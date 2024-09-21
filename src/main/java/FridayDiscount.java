@@ -15,23 +15,36 @@ public class FridayDiscount extends BaseDiscount {
 
     @Override
     public double calculateDiscount(Product product) {
+        double discount = 0;
         if (isApplicable(product)) {
-            double discount = 10.0 / 100.0;
-            return product.Price() * discount;
+            discount = product.Price() * 0.10;
+
 
         }
-        return 0;
+        if(nextDiscount != null) {
+            discount += nextDiscount.apply(product);
+        }
+
+        return discount;
     }
 
     @Override
-    public int apply(Product product) {
-
-        return 1;
+    public double apply(Product product) {
+        return calculateDiscount(product);
 
     }
 
     @Override
     public String getDescription(Product product) {
-        return "Discount friday";
+        String description = "";
+        if(isApplicable(product)) {
+            description = "Friday discount 10%." + " ";
+        }
+        if (nextDiscount != null) {
+            description += nextDiscount.getDescription(product);
+        }
+
+
+        return description;
     }
 }

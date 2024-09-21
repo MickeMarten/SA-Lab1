@@ -6,27 +6,39 @@ public class QuantityDiscount extends BaseDiscount {
 
     @Override
     public boolean isApplicable(Product product) {
-        return product.Quantity() > 5;
+        return product.Quantity() >= 5;
     }
 
     @Override
     public double calculateDiscount(Product product) {
-        int totalPrize = product.Price() * product.Quantity();
+        double discount = 0;
         if (isApplicable(product)) {
-            return totalPrize - 10 * product.Quantity();
+            discount = 10 * product.Quantity();
 
         }
-        return 0;
+
+        if(nextDiscount != null) {
+            discount += nextDiscount.apply(product);
+        }
+        return discount;
     }
 
     @Override
-    public int apply(Product product) {
-        return 1;
+    public double apply(Product product) {
+        return calculateDiscount(product);
 
     }
 
     @Override
     public String getDescription(Product product) {
-        return "10kr discount if you buy atleast 5!";
+        String description = "";
+        if(isApplicable(product)) {
+            description = "-10 on every product if you buy more than 5." + " ";
+        }
+        if (nextDiscount != null) {
+            description +=  nextDiscount.getDescription(product);
+        }
+
+        return description;
     }
 }

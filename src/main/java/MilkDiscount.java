@@ -5,28 +5,41 @@ public class MilkDiscount extends BaseDiscount {
     }
 
     @Override
-    public boolean isApplicable(Product product) {
+    protected boolean isApplicable(Product product) {
         return product.name().equals("Milk");
 
     }
 
     @Override
-    public double calculateDiscount(Product product) {
+    protected double calculateDiscount(Product product) {
+        double discount = 0;
         if (isApplicable(product)) {
-            double discount = 5.0 / 100.0;
-            return product.Price() * discount;
+            discount = product.Price() * 0.05;
         }
-        return 0;
+        if(nextDiscount != null) {
+             discount += nextDiscount.apply(product);
+
+        }
+
+        return discount;
     }
 
     @Override
-    public int apply(Product product) {
-        return 1;
+    public double apply(Product product) {
+        return calculateDiscount(product);
 
     }
 
     @Override
     public String getDescription(Product product) {
-        return "5% discount on milk!";
+        String description = "";
+        if(isApplicable(product)) {
+            description = "5% discount on milk." + " ";
+        }
+        if (nextDiscount != null) {
+            description +=  nextDiscount.getDescription(product);
+        }
+
+        return description;
     }
 }
