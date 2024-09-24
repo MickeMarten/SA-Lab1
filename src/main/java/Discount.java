@@ -1,7 +1,7 @@
 public interface Discount {
 
-    public double apply(Product product);
+     double apply(Product product);
 
-    public String getDescription(Product product);
+     String getDescription(Product product);
 
 }

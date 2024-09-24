@@ -33,7 +33,7 @@ public class QuantityDiscount extends BaseDiscount {
     public String getDescription(Product product) {
         String description = "";
         if(isApplicable(product)) {
-            description = "-10 on every product if you buy more than 5." + " ";
+            description = "-10kr on every product if you buy more than 5." + " ";
         }
         if (nextDiscount != null) {
             description +=  nextDiscount.getDescription(product);
