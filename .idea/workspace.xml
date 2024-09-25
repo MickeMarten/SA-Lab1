@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b68330-083c-43c6-83e4-3a5303c64b16" name="Changes" comment="Added classes, and some logic.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Discount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Discount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FridayDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FridayDiscount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MilkDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MilkDiscount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/QuantityDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/QuantityDiscount.java" afterDir="false" />
+    <list default="true" id="56b68330-083c-43c6-83e4-3a5303c64b16" name="Changes" comment="added tests">
+      <change beforePath="$PROJECT_DIR$/src/test/java/FridayDiscountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FridayDiscountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="VG" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -50,27 +50,80 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Micke/code/skola/SA-Lab1&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.FridayDiscount.executor": "Run",
+    "JUnit.FridayDiscountTest.executor": "Run",
+    "JUnit.FridayDiscountTest.testToCheckDiscountIsFalseIfNameIsMilk.executor": "Run",
+    "JUnit.FridayDiscountTest.testToCheckDiscountIsNullIfNextDiscountIsNotApplicable.executor": "Run",
+    "JUnit.FridayDiscountTest.testToCheckDiscountIsZeroIfNameIsNotMilk.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Micke/code/skola/SA-Lab1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="JUnit.FridayDiscountTest">
+    <configuration name="FridayDiscountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SA-Lab1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FridayDiscountTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FridayDiscountTest.testToCheckDiscountIsFalseIfNameIsMilk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SA-Lab1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FridayDiscountTest" />
+      <option name="METHOD_NAME" value="testToCheckDiscountIsFalseIfNameIsMilk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FridayDiscountTest.testToCheckDiscountIsNullIfNextDiscountIsNotApplicable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SA-Lab1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FridayDiscountTest" />
+      <option name="METHOD_NAME" value="testToCheckDiscountIsNullIfNextDiscountIsNotApplicable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FridayDiscountTest.testToCheckDiscountIsZeroIfNameIsNotMilk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SA-Lab1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FridayDiscountTest" />
+      <option name="METHOD_NAME" value="testToCheckDiscountIsZeroIfNameIsNotMilk" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FridayDiscountTest" />
+        <item itemvalue="JUnit.FridayDiscountTest.testToCheckDiscountIsNullIfNextDiscountIsNotApplicable" />
+        <item itemvalue="JUnit.FridayDiscountTest.testToCheckDiscountIsFalseIfNameIsMilk" />
+        <item itemvalue="JUnit.FridayDiscountTest.testToCheckDiscountIsZeroIfNameIsNotMilk" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -113,7 +166,14 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1726870960135</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="added tests">
+      <option name="closed" value="true" />
+      <created>1727176478909</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1727176478909</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +221,22 @@
     <MESSAGE value="First commit" />
     <MESSAGE value="Test" />
     <MESSAGE value="Added classes, and some logic." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added classes, and some logic." />
+    <MESSAGE value="added tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tests" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/FridayDiscountTest.java</url>
+          <line>45</line>
+          <properties class="FridayDiscountTest" method="testDiscountsAreChainedCorrectlyOnSameProduct">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
