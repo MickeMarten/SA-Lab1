@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b68330-083c-43c6-83e4-3a5303c64b16" name="Changes" comment="idk what this file is" />
+    <list default="true" id="56b68330-083c-43c6-83e4-3a5303c64b16" name="Changes" comment="idk what this file is">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FridayDiscountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MilDiscountTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,12 +37,12 @@
     &quot;assignee&quot;: &quot;MickeMarten&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MickeMarten/SA-Lab1.git&quot;,
-    &quot;accountId&quot;: &quot;534a5274-645b-4269-a732-dbd3f4ac3b6e&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MickeMarten/SA-Lab1",
+    "accountId": "8b5c43b3-a910-472d-924b-096c1494acf1"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -56,6 +60,7 @@
     "JUnit.FridayDiscountTest.testToCheckDiscountIsFalseIfNameIsMilk.executor": "Run",
     "JUnit.FridayDiscountTest.testToCheckDiscountIsNullIfNextDiscountIsNotApplicable.executor": "Run",
     "JUnit.FridayDiscountTest.testToCheckDiscountIsZeroIfNameIsNotMilk.executor": "Run",
+    "JUnit.MilDiscountTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -73,40 +78,40 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FridayDiscountTest">
-    <configuration name="FridayDiscountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MilDiscountTest">
+    <configuration name="MilDiscountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SA-Lab1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FridayDiscountTest" />
+      <option name="MAIN_CLASS_NAME" value="MilDiscountTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FridayDiscountTest.testToCheckDiscountIsFalseIfNameIsMilk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MilDiscountTest.testToCheckDiscountIsFalseIfNameIsMilk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SA-Lab1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FridayDiscountTest" />
+      <option name="MAIN_CLASS_NAME" value="MilDiscountTest" />
       <option name="METHOD_NAME" value="testToCheckDiscountIsFalseIfNameIsMilk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FridayDiscountTest.testToCheckDiscountIsNullIfNextDiscountIsNotApplicable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MilDiscountTest.testToCheckDiscountIsNullIfNextDiscountIsNotApplicable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SA-Lab1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FridayDiscountTest" />
+      <option name="MAIN_CLASS_NAME" value="MilDiscountTest" />
       <option name="METHOD_NAME" value="testToCheckDiscountIsNullIfNextDiscountIsNotApplicable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FridayDiscountTest.testToCheckDiscountIsZeroIfNameIsNotMilk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MilDiscountTest.testToCheckDiscountIsZeroIfNameIsNotMilk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SA-Lab1" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FridayDiscountTest" />
+      <option name="MAIN_CLASS_NAME" value="MilDiscountTest" />
       <option name="METHOD_NAME" value="testToCheckDiscountIsZeroIfNameIsNotMilk" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -115,18 +120,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FridayDiscountTest" />
-        <item itemvalue="JUnit.FridayDiscountTest.testToCheckDiscountIsNullIfNextDiscountIsNotApplicable" />
-        <item itemvalue="JUnit.FridayDiscountTest.testToCheckDiscountIsFalseIfNameIsMilk" />
-        <item itemvalue="JUnit.FridayDiscountTest.testToCheckDiscountIsZeroIfNameIsNotMilk" />
+        <item itemvalue="JUnit.MilDiscountTest" />
+        <item itemvalue="JUnit.MilDiscountTest.testToCheckDiscountIsNullIfNextDiscountIsNotApplicable" />
+        <item itemvalue="JUnit.MilDiscountTest.testToCheckDiscountIsFalseIfNameIsMilk" />
+        <item itemvalue="JUnit.MilDiscountTest.testToCheckDiscountIsZeroIfNameIsNotMilk" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.22855.74" />
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.22855.74" />
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
       </set>
     </attachedChunks>
   </component>
@@ -142,6 +147,7 @@
       <workItem from="1726832110710" duration="4807000" />
       <workItem from="1726864486854" duration="6435000" />
       <workItem from="1726954675036" duration="6861000" />
+      <workItem from="1727349011172" duration="346000" />
     </task>
     <task id="LOCAL−00001" summary="First commit">
       <option name="closed" value="true" />
@@ -185,7 +191,14 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1727181159946</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="idk what this file is">
+      <option name="closed" value="true" />
+      <created>1727349029546</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1727349029546</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,9 +255,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/FridayDiscountTest.java</url>
+          <url>file://$PROJECT_DIR$/src/test/java/MilDiscountTest.java</url>
           <line>47</line>
-          <properties class="FridayDiscountTest" method="testDiscountsAreChainedCorrectlyOnSameProduct">
+          <properties class="MilDiscountTest" method="testDiscountsAreChainedCorrectlyOnSameProduct">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

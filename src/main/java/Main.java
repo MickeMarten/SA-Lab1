@@ -7,7 +7,7 @@ public class Main {
         Discount discounts2 = new FridayDiscount( new MilkDiscount( new QuantityDiscount(null)));
 
         System.out.println(discounts.apply(test) + ": " + discounts.getDescription(test));
-        System.out.println(discounts2.apply(test2) + ": " + discounts2.getDescription(test));
+        System.out.println(discounts2.apply(test2) + ": " + discounts2.getDescription(test2));
 
 
 

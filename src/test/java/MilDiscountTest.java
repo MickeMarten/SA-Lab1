@@ -1,11 +1,10 @@
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class FridayDiscountTest {
+public class MilDiscountTest {
 
     private static MilkDiscount milkDiscount;
     private static Discount nextDiscount;
