@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56b68330-083c-43c6-83e4-3a5303c64b16" name="Changes" comment="added tests">
-      <change beforePath="$PROJECT_DIR$/src/test/java/FridayDiscountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FridayDiscountTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="56b68330-083c-43c6-83e4-3a5303c64b16" name="Changes" comment="idk what this file is" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +171,21 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1727176478909</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Moved tests order">
+      <option name="closed" value="true" />
+      <created>1727181126640</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1727181126641</updated>
+    </task>
+    <task id="LOCAL−00006" summary="idk what this file is">
+      <option name="closed" value="true" />
+      <created>1727181159946</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1727181159946</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,14 +234,16 @@
     <MESSAGE value="Test" />
     <MESSAGE value="Added classes, and some logic." />
     <MESSAGE value="added tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added tests" />
+    <MESSAGE value="Moved tests order" />
+    <MESSAGE value="idk what this file is" />
+    <option name="LAST_COMMIT_MESSAGE" value="idk what this file is" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/FridayDiscountTest.java</url>
-          <line>45</line>
+          <line>47</line>
           <properties class="FridayDiscountTest" method="testDiscountsAreChainedCorrectlyOnSameProduct">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
