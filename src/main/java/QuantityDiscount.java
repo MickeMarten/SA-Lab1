@@ -17,17 +17,10 @@ public class QuantityDiscount extends BaseDiscount {
 
         }
 
-        if(nextDiscount != null) {
-            discount += nextDiscount.apply(product);
-        }
+
         return discount;
     }
 
-    @Override
-    public double apply(Product product) {
-        return calculateDiscount(product);
-
-    }
 
     @Override
     public String getDescription(Product product) {
@@ -35,10 +28,8 @@ public class QuantityDiscount extends BaseDiscount {
         if(isApplicable(product)) {
             description = "-10kr on every product if you buy more than 5." + " ";
         }
-        if (nextDiscount != null) {
-            description +=  nextDiscount.getDescription(product);
-        }
 
-        return description;
+
+        return description + (nextDiscount != null ? nextDiscount.getDescription(product) : "");
     }
 }

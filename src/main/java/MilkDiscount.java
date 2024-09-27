@@ -16,19 +16,11 @@ public class MilkDiscount extends BaseDiscount {
         if (isApplicable(product)) {
             discount = product.Price() * 0.05;
         }
-        if(nextDiscount != null) {
-             discount += nextDiscount.apply(product);
 
-        }
 
         return discount;
     }
 
-    @Override
-    public double apply(Product product) {
-        return calculateDiscount(product);
-
-    }
 
     @Override
     public String getDescription(Product product) {
@@ -36,10 +28,8 @@ public class MilkDiscount extends BaseDiscount {
         if(isApplicable(product)) {
             description = "5% discount on milk." + " ";
         }
-        if (nextDiscount != null) {
-            description +=  nextDiscount.getDescription(product);
-        }
 
-        return description;
+
+        return description + (nextDiscount != null ? nextDiscount.getDescription(product) : "");
     }
 }
